@@ -6,5 +6,4 @@ numpy==1.26.4
 PyMuPDF==1.23.22
 spacy==3.7.2
 
-pip install gunicorn
 
