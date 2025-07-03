@@ -4,4 +4,5 @@ pdfminer.six==20221105
 python-docx==1.1.0
 numpy==1.26.4
 PyMuPDF==1.23.22
+spacy==3.7.2
 
