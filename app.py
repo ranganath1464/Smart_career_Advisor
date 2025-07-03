@@ -7,6 +7,14 @@ from matcher.job_matcher import load_job_descriptions, match_jobs
 from matcher.skill_gap import extract_skills_from_job, find_skill_gap
 from matcher.learning_path import get_learning_resources
 import os
+import spacy
+
+try:
+    nlp = spacy.load("en_core_web_sm")
+except:
+    from spacy.cli import download
+    download("en_core_web_sm")
+    nlp = spacy.load("en_core_web_sm")
 
 
 
