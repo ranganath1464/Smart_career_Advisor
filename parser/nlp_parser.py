@@ -1,6 +1,15 @@
 import spacy
 import re
+import nltk
 from nltk.corpus import stopwords
+
+# Add this block to ensure stopwords are available
+try:
+    stop_words = set(stopwords.words("english"))
+except LookupError:
+    nltk.download("stopwords")
+    stop_words = set(stopwords.words("english"))
+
 
 nlp = spacy.load("en_core_web_sm")
 stop_words = set(stopwords.words("english"))
