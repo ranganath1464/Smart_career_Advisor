@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Data Analyst",
+    "company": "ABC Corp",
+    "description": "Looking for a Data Analyst with experience in Python, Excel, SQL, and data visualization tools like Tableau or Power BI."
+  },
+  {
+    "id": 2,
+    "title": "Machine Learning Engineer",
+    "company": "XYZ AI",
+    "description": "Need someone with strong understanding of machine learning, Python, Scikit-learn, Pandas, and NumPy. Experience with deep learning is a plus."
+  },
+  {
+    "id": 3,
+    "title": "Backend Developer",
+    "company": "Web Solutions",
+    "description": "Seeking a Backend Developer with proficiency in Flask or Django, APIs, SQL, and good software engineering practices."
+  }
+]
