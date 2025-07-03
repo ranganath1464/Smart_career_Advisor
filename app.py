@@ -6,6 +6,9 @@ from parser.nlp_parser import parse_resume
 from matcher.job_matcher import load_job_descriptions, match_jobs
 from matcher.skill_gap import extract_skills_from_job, find_skill_gap
 from matcher.learning_path import get_learning_resources
+import os
+
+
 
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
@@ -97,5 +100,5 @@ def upload_resume():
 
 # ✅ Start the Flask app
 if __name__ == '__main__':
-    print("Flask app is starting...")
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
