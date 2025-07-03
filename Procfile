@@ -1,1 +1,1 @@
-web: python app.py
+web: python Smart_career_Advisor.py
