@@ -1,3 +1,4 @@
+nltk
 PyMuPDF
 gunicorn
 Flask==2.3.3
